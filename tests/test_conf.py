@@ -58,6 +58,7 @@ _settings = {
     "pre_bump_hooks": ["scripts/generate_documentation.sh"],
     "post_bump_hooks": ["scripts/slack_notification.sh"],
     "prerelease_offset": 0,
+    "version_provider": None,
 }
 
 _new_settings = {
@@ -77,6 +78,7 @@ _new_settings = {
     "pre_bump_hooks": ["scripts/generate_documentation.sh"],
     "post_bump_hooks": ["scripts/slack_notification.sh"],
     "prerelease_offset": 0,
+    "version_provider": None,
 }
 
 _read_settings = {
